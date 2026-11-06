@@ -8,6 +8,7 @@ def main():
     cart.add_dvd(DigitalVideoDisc("Star Wars", "Science Fiction", 24.95))
     cart.add_dvd(DigitalVideoDisc("Aladdin", "Animation", 18.99))
 
+    cart.print_cart()
     print(f"Total cost: {cart.total_cost()} $")
 
 
