@@ -17,3 +17,6 @@ chỉ dùng thư viện chuẩn. Dự án mẫu cho bài thực hành môn IT318
 - `dvd.py` – lớp `DigitalVideoDisc`
 - `cart.py` – lớp `Cart`
 - `main.py` – chương trình demo
+
+## Yêu cầu
+- Python >= 3.10
