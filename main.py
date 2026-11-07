@@ -1,5 +1,6 @@
 from aims.dvd import DigitalVideoDisc
 from aims.cart import Cart
+from aims.search import search_by_title
 
 
 def main():
@@ -8,7 +9,12 @@ def main():
     cart.add_dvd(DigitalVideoDisc("Star Wars", "Science Fiction", 24.95))
     cart.add_dvd(DigitalVideoDisc("Aladdin", "Animation", 18.99))
 
-    cart.print_cart()
+    # Luu y: ban dau chi copy KHOI "Ket qua tim" nay vao main.py hien co tren nhanh.
+    # Dong cart.print_cart() se duoc them vao SAU khi dong bo main (xem huong dan - Phan E).
+    print("Ket qua tim 'lion':")
+    for dvd in search_by_title(cart.items, "lion"):
+        print(f"  {dvd.title}")
+
     print(f"Total cost: {cart.total_cost()} $")
 
 
