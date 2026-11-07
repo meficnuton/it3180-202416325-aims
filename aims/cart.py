@@ -12,11 +12,8 @@ class Cart:
         if len(self.items) >= MAX_NUMBERS_ORDERED:
             return False
         self.items.append(dvd)
-<<<<<<< HEAD
         print(f"The disc '{dvd.title}' has been added")
-=======
         print("Đã thêm đĩa vào giỏ hàng")
->>>>>>> origin/main
         return True
 
     def print_cart(self):
@@ -24,6 +21,7 @@ class Cart:
         if not self.items:
             print("The cart is empty")
             return
+        print(f"Giỏ hàng ({len(self.items)} đĩa):")        
         for index, dvd in enumerate(self.items, start=1):
             print(f"{index}. {dvd}")
     def total_cost_with_discount(self, percent: float) -> float:
