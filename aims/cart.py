@@ -12,6 +12,7 @@ class Cart:
         if len(self.items) >= MAX_NUMBERS_ORDERED:
             return False
         self.items.append(dvd)
+        print(f"The disc '{dvd.title}' has been added")
         return True
 
     def print_cart(self):
