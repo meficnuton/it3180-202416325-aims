@@ -21,6 +21,9 @@ class Cart:
             return
         for index, dvd in enumerate(self.items, start=1):
             print(f"{index}. {dvd}")
+    def total_cost_with_discount(self, percent: float) -> float:
+        """Tổng tiền sau khi giảm giá percent %."""
+        return round(self.total_cost() * percent / 100, 2)
 
     def total_cost(self) -> float:
         """Tổng tiền của các DVD trong giỏ."""
