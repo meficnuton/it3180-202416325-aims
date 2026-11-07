@@ -9,7 +9,7 @@ class Cart:
 
     def add_dvd(self, dvd) -> bool:
         """Thêm một DVD vào giỏ; trả về False nếu giỏ đã đầy."""
-        if len(self.items) > MAX_NUMBERS_ORDERED:
+        if len(self.items) >= MAX_NUMBERS_ORDERED:
             return False
         self.items.append(dvd)
         return True
