@@ -7,6 +7,12 @@ phiên bản theo [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-07
+
+### Fixed
+
+- `search_by_title()` tìm đĩa không phân biệt hoa/thường — #26
+
 ## [1.0.0] - 2026-11-07
 
 ### Added
@@ -23,5 +29,6 @@ phiên bản theo [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Giỏ hàng từ chối đĩa thứ 21 (`MAX_NUMBERS_ORDERED = 20`) — #8
 - `total_cost_with_discount()` trả về số tiền **sau** giảm và chặn `percent` không hợp lệ
 
-[Unreleased]: https://github.com/meficnuton/it3180-202416325-aims/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/meficnuton/it3180-202416325-aims/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/meficnuton/it3180-202416325-aims/releases/tag/v1.0.1
 [1.0.0]: https://github.com/meficnuton/it3180-202416325-aims/releases/tag/v1.0.0
