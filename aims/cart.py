@@ -15,7 +15,10 @@ class Cart:
         return True
 
     def print_cart(self):
-        """In chi tiết các đĩa trong giỏ."""
+        """In chi tiết các đĩa trong giỏ; thông báo nếu giỏ trống."""
+        if not self.items:
+            print("The cart is empty")
+            return
         for index, dvd in enumerate(self.items, start=1):
             print(f"{index}. {dvd}")
 
