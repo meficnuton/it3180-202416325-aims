@@ -7,6 +7,11 @@ phiên bản theo [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added
+
+- `Cart.sort_by_title()`: sắp xếp đĩa trong giỏ theo tiêu đề
+- `Cart.sort_by_cost()`: sắp xếp đĩa trong giỏ theo giá
+
 ## [1.0.0] - 2026-11-07
 
 ### Added

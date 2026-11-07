@@ -23,6 +23,17 @@ class Cart:
         print(f"=== Giỏ hàng ({len(self.items)} đĩa) ===")
         for index, dvd in enumerate(self.items, start=1):
             print(f"{index}. {dvd}")
+
+    def sort_by_title(self):
+        """Sắp xếp đĩa trong giỏ theo tiêu đề (A → Z)."""
+        self.items.sort(key=lambda dvd: dvd.title)
+        return self.items
+
+    def sort_by_cost(self):
+        """Sắp xếp đĩa trong giỏ theo giá tăng dần."""
+        self.items.sort(key=lambda dvd: dvd.cost)
+        return self.items
+
     def total_cost_with_discount(self, percent: float) -> float:
         """Tổng tiền sau khi giảm giá percent %."""
         if not 0 <= percent <= 100:
