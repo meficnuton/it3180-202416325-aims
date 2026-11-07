@@ -7,10 +7,12 @@ phiên bản theo [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-07
+
 ### Added
 
-- `Cart.sort_by_title()`: sắp xếp đĩa trong giỏ theo tiêu đề
-- `Cart.sort_by_cost()`: sắp xếp đĩa trong giỏ theo giá
+- `Cart.sort_by_title()`, `Cart.sort_by_cost()`: sắp xếp đĩa trong giỏ theo tiêu đề / theo giá
+- `search_by_category()`: tìm đĩa theo thể loại (không phân biệt hoa/thường)
 
 ## [1.0.0] - 2026-11-07
 
@@ -28,5 +30,6 @@ phiên bản theo [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Giỏ hàng từ chối đĩa thứ 21 (`MAX_NUMBERS_ORDERED = 20`) — #8
 - `total_cost_with_discount()` trả về số tiền **sau** giảm và chặn `percent` không hợp lệ
 
-[Unreleased]: https://github.com/meficnuton/it3180-202416325-aims/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/meficnuton/it3180-202416325-aims/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/meficnuton/it3180-202416325-aims/releases/tag/v1.1.0
 [1.0.0]: https://github.com/meficnuton/it3180-202416325-aims/releases/tag/v1.0.0
