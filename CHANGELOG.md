@@ -14,6 +14,12 @@ phiên bản theo [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - `Cart.sort_by_title()`, `Cart.sort_by_cost()`: sắp xếp đĩa trong giỏ theo tiêu đề / theo giá
 - `search_by_category()`: tìm đĩa theo thể loại (không phân biệt hoa/thường)
 
+## [1.0.1] - 2026-11-07
+
+### Fixed
+
+- `search_by_title()` tìm đĩa không phân biệt hoa/thường — #26 (lan truyền từ dòng 1.0.x bằng `cherry-pick -x`)
+
 ## [1.0.0] - 2026-11-07
 
 ### Added
@@ -32,4 +38,5 @@ phiên bản theo [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 [Unreleased]: https://github.com/meficnuton/it3180-202416325-aims/compare/v1.1.0...HEAD
 [1.1.0]: https://github.com/meficnuton/it3180-202416325-aims/releases/tag/v1.1.0
+[1.0.1]: https://github.com/meficnuton/it3180-202416325-aims/releases/tag/v1.0.1
 [1.0.0]: https://github.com/meficnuton/it3180-202416325-aims/releases/tag/v1.0.0
